@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <com.lwz.demo.circularprogressbar.widget.CircularProgressBar 
+        android:id="@+id/circular_progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp" />
+    
+    <com.lwz.demo.circularprogressbar.widget.RateTextCircularProgressBar 
+        android:id="@+id/rate_progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+# Android generated folders
+gen/
+checkstyle-result.xml
+local.properties
+bin/
+.project
+.classpath
+.idea
+out
+*.apk
+build.xml.bak
+.DS_Store
+*.iml
+*.ipr
+*.iws
+target
+
+
+
+
+# built application files 
+*.apk 
+*.ap_ 
+
+# files for the dex VM 
+*.dex 
+
+# Java class files 
+*.class 
+
+# generated files 
+bin/ 
+gen/ 
+
+# Local configuration file (sdk path, etc) 
+local.properties 
+
+# Eclipse project files 
+.classpath 
+.project 
+
+# Eclipse workspace metadata
+.metadata/*
